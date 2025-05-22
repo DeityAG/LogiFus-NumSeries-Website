@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Series Dataset Sources</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .link-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+        }
+
+        .site-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .site-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .site-description {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .visit-link {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 500;
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        .visit-link:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .visit-link::after {
+            content: '→';
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .visit-link:hover::after {
+            transform: translateX(3px);
+        }
+
+        .stats {
+            text-align: center;
+            margin-top: 40px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .stats span {
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Websites Sources for Number Series Dataset:</h1>
+            <p>Comprehensive collection of resources for number series problems and solutions</p>
+        </div>
+
+        <div class="links-grid">
+            <div class="link-card">
+                <div class="site-name">
+                    <div class="site-icon">IB</div>
+                    IndiaBix
+                </div>
+                <div class="site-description">
+                    Logical reasoning number series questions with detailed explanations and practice problems.
+                </div>
+                <a href="https://www.indiabix.com/logical-reasoning/number-series/004001/" target="_blank" class="visit-link">
+                    Visit Site
+                </a>
+            </div>
+
+            <div class="link-card">
+                <div class="site-name">
+                    <div class="site-icon">GFG</div>
+                    GeeksforGeeks
+                </div>
+                <div class="site-description">
+                    Comprehensive guide to number series in quantitative aptitude with algorithms and examples.
+                </div>
+                <a href="https://www.geeksforgeeks.org/number-series-in-quantitative-aptitude/" target="_blank" class="visit-link">
+                    Visit Site
+                </a>
+            </div>
+
+            <div class="link-card">
+                <div class="site-name">
+                    <div class="site-icon">TB</div>
+                    Testbook - Reasoning
+                </div>
+                <div class="site-description">
+                    Number series reasoning concepts, tricks, and practice questions for competitive exams.
+                </div>
+                <a href="https://testbook.com/reasoning/number-series-reasoning" target="_blank" class="visit-link">
+                    Visit Site
+                </a>
+            </div>
+
+            <div class="link-card">
+                <div class="site-name">
+                    <div class="site-icon">TB</div>
+                    Testbook - MCQs
+                </div>
+                <div class="site-description">
+                    Multiple choice questions on number series with detailed solutions and explanations.
+                </div>
+                <a href="https://testbook.com/objective-questions/mcq-on-number-series--5eea6a0e39140f30f369e492" target="_blank" class="visit-link">
+                    Visit Site
+                </a>
+            </div>
+
+            <div class="link-card">
+                <div class="site-name">
+                    <div class="site-icon">SW</div>
+                    Sawaal
+                </div>
+                <div class="site-description">
+                    Series questions and answers for verbal reasoning and mental ability preparation.
+                </div>
+                <a href="https://www.sawaal.com/aptitude-reasoning/verbal-reasoning-mental-ability-questions-and-answers/series-questions-and-answers.html" target="_blank" class="visit-link">
+                    Visit Site
+                </a>
+            </div>
+
+            <div class="link-card">
+                <div class="site-name">
+                    <div class="site-icon">SK</div>
+                    SmartKeeda
+                </div>
+                <div class="site-description">
+                    Number series questions for quantitative aptitude with practice tests and solutions.
+                </div>
+                <a href="https://www.smartkeeda.com/quantitative-aptitude/number-series-questions" target="_blank" class="visit-link">
+                    Visit Site
+                </a>
+            </div>
+        </div>
+
+        <div class="stats">
+            <p>Total Resources: <span>6</span></p>
+        </div>
+    </div>
+</body>
+</html>
